@@ -1,0 +1,85 @@
+.btn-div {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid var(--white);
+  box-shadow: 0 0 3px #000, 0 0 12px var(--blue);
+  border-radius: 10px;
+}
+
+.button {
+  background-color: #000;
+  color: var(--white);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-shadow: 0 0 25px var(--white), 0 0 50px var(--white),
+    0 0 100px var(--white);
+  width: 100%;
+}
+
+.button:hover {
+  background-color: var(--white);
+  color: #000;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  max-width: 800px;
+  width: 100%;
+  text-align: center;
+}
+
+.modal h2 {
+  margin-top: 0;
+  font-size: 24px;
+}
+
+.modal p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.modal li {
+  text-align: start;
+}
+
+.modal button {
+  background-color: var(--blue);
+  color: var(--white);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  cursor: pointer;
+  border: 3px solid var(--white);
+  border-radius: 10px;
+}
+
+.modal button:hover {
+  background-color: var(--white);
+  color: var(--blue);
+  border: 3px solid var(--blue);
+}
